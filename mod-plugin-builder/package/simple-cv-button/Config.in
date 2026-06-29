@@ -1,0 +1,9 @@
+config BR2_PACKAGE_SIMPLE_CV_BUTTON
+	bool "simple-cv-button"
+	select BR2_PACKAGE_LV2
+	help
+	  A simple LV2 plugin that translates a single button press into a
+	  CV signal, with selectable Latching, Momentary On and Momentary
+	  Off modes.
+
+	  https://github.com/pilali/mod-cv-plugins
