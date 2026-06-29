@@ -21,7 +21,6 @@
 #include <math.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <stdatomic.h>
 
 #include "state_map.h"
 
