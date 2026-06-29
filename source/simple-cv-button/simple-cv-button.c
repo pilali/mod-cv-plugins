@@ -264,7 +264,7 @@ instantiate(const LV2_Descriptor*     descriptor,
             const char*               bundle_path,
             const LV2_Feature* const* features)
 {
-    Control* self = (Control*)calloc(sizeof(Control), 1);
+    Control* self = (Control*)calloc(1, sizeof(Control));
 
     // Get host features
     // clang-format off
